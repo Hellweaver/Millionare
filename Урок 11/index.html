@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Кто хочет стать миллионером</title>
+</head>
+<body>
+<div class="main">
+	<div class="block-one">
+		<div>
+			<div class="help">
+				<div class="prompt">50:50</div>
+				<div class="prompt">Зал</div>
+				<div class="prompt">Звонок</div>
+			</div>
+			<div>
+				<img src="logo.png">
+			</div>
+		</div>
+		<div class="result">
+			<div class="money">15. 3 000 000</div>
+			<div class="money">14. 1 500 000</div>
+			<div class="money">13. 800 000</div>
+			<div class="money">12. 400 000</div>
+			<div class="money">11. 200 000</div>
+			<div class="money">10. 100 000</div>
+			<div class="money">9. 50 000</div>
+			<div class="money">8. 25 000</div>
+			<div class="money">7. 15 000</div>
+			<div class="money">6. 10 000</div>
+			<div class="money">5. 5 000</div>
+			<div class="money">4. 3 000</div>
+			<div class="money">3. 2 000</div>
+			<div class="money">2. 1 000</div>
+			<div class="money">1. 500</div>
+		</div>
+	</div>
+	<div class="block-two">
+		<div class="question">
+			<h2>Где в Древней Греции можно было увидеть надпись:"Здесь живут мёртвые и говорят немые"?</h2>
+		</div>
+		<div class="answer">
+			<div class="flex">
+				<div class="variant1">a)На кладбищах</div>
+				<div class="variant2">b)В библиотеках</div>
+			</div>
+			<div class="flex">
+				<div class="variant3">c)В больницах</div>
+				<div class="variant4">d)В тюрьмах</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	let variant1 = document.querySelector('.variant1')
+	let variant2 = document.querySelector('.variant2')
+	let variant3 = document.querySelector('.variant3')
+	let variant4 = document.querySelector('.variant4')
+	let question = document.querySelector('.question')
+	let answer = document.querySelector('.answer')
+    let a = document.querySelector('.a')
+     let b = document.querySelector('.b')
+      let c = document.querySelector('.c')
+       let d = document.querySelector('.d')
+       variant2.onclick  = function() {
+       	alert('Правильно!!!')
+       }
+       variant1.onclick  = function() {
+       	alert('Неверно!!!')
+       }
+       variant3.onclick  = function() {
+       	alert('Неверно!!!')
+       }
+       variant4.onclick  = function() {
+       	alert('Неверно!!!')
+       }
+</script>
+</body>
+</html>
